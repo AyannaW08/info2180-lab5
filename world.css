@@ -13,7 +13,6 @@ header {
   background: #1cad67;
   color: #fff;
   padding: 20px;
-  
 }
 
 header img {
@@ -23,6 +22,7 @@ header img {
 
 header h1 {
   margin: 0;
+  font-family: 'Courier New', monospace;
 }
 
 main {
@@ -87,4 +87,8 @@ th, td {
 
 th {
   background: #edf2f7;
+}
+
+#buttons {
+  margin-top: 12px;
 }
