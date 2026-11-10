@@ -1,1 +1,77 @@
-/* Add your own styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: #4a5568;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+#country {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 12px 4px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#lookup {
+  background: #38b2ac;
+}
+
+#lookup-cities {
+  background: #4299e1;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+}
+
+th {
+  background: #edf2f7;
+}
