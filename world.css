@@ -1,15 +1,28 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f6f9;
+  background: #02f9f5;
   margin: 0;
   color: #333;
 }
 
 header {
-  background: #4a5568;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #1cad67;
   color: #fff;
   padding: 20px;
-  text-align: center;
+  
+}
+
+header img {
+  height: 100px;
+  width: auto;
+}
+
+header h1 {
+  margin: 0;
 }
 
 main {
@@ -38,7 +51,7 @@ button {
 }
 
 #lookup {
-  background: #38b2ac;
+  background: #0e7f7a;
 }
 
 #lookup-cities {
